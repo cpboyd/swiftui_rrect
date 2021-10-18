@@ -17,6 +17,8 @@
 		6744D470270F38FA00D2CA56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6744D446270F38F800D2CA56 /* ContentView.swift */; };
 		6744D471270F38FA00D2CA56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6744D447270F38FA00D2CA56 /* Assets.xcassets */; };
 		6744D472270F38FA00D2CA56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6744D447270F38FA00D2CA56 /* Assets.xcassets */; };
+		6768BDF22717B9AD00A788A6 /* image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6768BDF12717B9AD00A788A6 /* image.swift */; };
+		6768BDF32717B9AD00A788A6 /* image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6768BDF12717B9AD00A788A6 /* image.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		6744D465270F38FA00D2CA56 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6744D469270F38FA00D2CA56 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		6744D46B270F38FA00D2CA56 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		6768BDF12717B9AD00A788A6 /* image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = image.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,7 @@
 				6744D445270F38F800D2CA56 /* rrectApp.swift */,
 				6744D446270F38F800D2CA56 /* ContentView.swift */,
 				6744D447270F38FA00D2CA56 /* Assets.xcassets */,
+				6768BDF12717B9AD00A788A6 /* image.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -301,6 +305,7 @@
 			files = (
 				6744D46F270F38FA00D2CA56 /* ContentView.swift in Sources */,
 				6744D46D270F38FA00D2CA56 /* rrectApp.swift in Sources */,
+				6768BDF22717B9AD00A788A6 /* image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +315,7 @@
 			files = (
 				6744D470270F38FA00D2CA56 /* ContentView.swift in Sources */,
 				6744D46E270F38FA00D2CA56 /* rrectApp.swift in Sources */,
+				6768BDF32717B9AD00A788A6 /* image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +474,7 @@
 				DEVELOPMENT_TEAM = PRMYS7FUAY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow permission to save image.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -498,6 +505,7 @@
 				DEVELOPMENT_TEAM = PRMYS7FUAY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow permission to save image.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
